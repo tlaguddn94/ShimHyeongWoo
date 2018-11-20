@@ -1,1 +1,1 @@
-//document.getElementById('container').innerHTML = Date()
+document.getElementById('container').innerHTML = Date()
