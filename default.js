@@ -1,3 +1,3 @@
-document.getElementById("abc").innerHTML = Date();
+document.getElementById("abc").innerHTML = ''abcdefefefefefe;
 var cars = ["Saab", "Volvo", "BMW"];
 document.getElementById("demo").innerHTML = cars;
