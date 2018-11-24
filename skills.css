@@ -1,0 +1,163 @@
+.pT{
+  font-size: 30px;
+  font-weight: bold;
+}
+.skillHead{
+  color: black;
+  background: white;
+  font-size: 65px;
+  top: 50%;
+  margin-left: 10%;
+  border-bottom: 7px solid #b2bec3;
+  border-radius: 5px 5px;
+
+}
+.skills{
+  color: black;
+  background: white;
+  padding-bottom: 40px;
+  overflow: scroll;
+  border: 5px solid white;
+}
+.skills li{
+  margin: 20px 0;
+  margin-left: 15%;
+}
+.skill_text{
+  padding: 15px 15px;
+
+}
+
+.bar{
+  background: #ecf0f1;
+  display:block;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius:5px;
+  overflow:hidden;
+  width: 80%;
+  box-shadow: 0 0 10px #2187e7b3;
+  margin-bottom: 15px;
+}
+.bar div{
+  height:4px;
+  float:left;
+
+}
+.skill_logo{
+  float: left;
+}
+.skill_logo img{
+  width: 120px;
+
+  height: 120px;
+}
+
+.study img{
+
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+.html{
+  width:90%;
+  animation: html 2s;
+  background: #d35400;
+}
+.css{
+  width:80%;
+  animation: css 2s;
+  background: #3498db;
+}
+.jquery{
+  width:75%;
+  animation: jquery 2s;
+  background:#0652DD;
+
+}
+.javascript{
+  width:80%;
+  animation: javascript 2s;
+  background:#f1c40f;
+}
+
+.studyBar{
+  width:10%;
+  animation: studyBar 2.4s infinite;
+  animation-direction: alternate;
+  box-shadow: 0 0 20px #bdc3c7;
+
+}
+
+@keyframes html {
+  0%{
+    width:0%;
+  }
+  100%{
+    width:90%
+  }
+}
+@keyframes css {
+  0%{
+    width:0%;
+
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes  jquery{
+  0%{
+    width:0%;
+
+  }
+  100%{
+    width: 75%;
+
+  }
+}
+@keyframes  javascript{
+  0%{
+    width:0%;
+
+  }
+  100%{
+    width:80%;
+
+  }
+}
+@keyframes  nodejs{
+  0%{
+    width:0%;
+
+  }
+  100%{
+    width: 95%;
+
+  }
+}
+@keyframes  studyBar{
+  0%{
+    background: #0fbcf9;
+  }
+  25%{
+    background: #27ae60;
+  }
+  50%{
+    background: #c0392b;
+  }
+  75%{
+    background: #1abc9c;
+  }
+  100%{
+    background: #487eb0;
+
+  }
+}
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}

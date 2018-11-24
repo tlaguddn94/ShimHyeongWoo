@@ -1,0 +1,53 @@
+.welcome{
+	padding-top: 18%;
+	background-color:rgba(0,0,0,0.2);
+	animation: open 2s;
+	animation-delay: 0.4s;
+	position: relative;
+}
+.intro{
+	font-family: fantasy;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	position: relative;
+	animation: 4s intro;
+	/*animation-delay: 2.5s;*/
+}
+
+.header{
+	animation: openC 2s;
+}
+@keyframes open{
+	0%{
+		opacity: 0;
+		padding-top: 0;
+	}
+	100%{
+		opacity: 1;
+		padding-top: 18%;
+	}
+}
+
+@keyframes intro{
+	0%{
+		opacity: 0;
+		margin-top: 600px;
+		color: #74b9ff;
+
+
+	}
+	100%{
+		opacity: 1;
+		margin-top: 0;
+		color: white;
+	}
+}
+@keyframes openC{
+	0%{
+		/*background: #ffffff;*/
+	}
+	100%{
+		/*background: #45aaf2;*/
+	}
+}
