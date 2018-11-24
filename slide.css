@@ -1,8 +1,7 @@
 .welcome{
 	padding-top: 18%;
 	background-color:rgba(0,0,0,0.2);
-	animation: open 2s;
-	animation-delay: 0.4s;
+	animation: open 6s;
 	position: relative;
 }
 .intro{
@@ -11,10 +10,15 @@
 	color: white;
 	text-align: center;
 	position: relative;
-	animation: 4s intro;
 	/*animation-delay: 2.5s;*/
 }
+.intro1{
+	animation: 2s intro1;
 
+}
+.intro2{
+	animation: 3s intro2;
+}
 .header{
 	animation: openC 2s;
 }
@@ -29,10 +33,10 @@
 	}
 }
 
-@keyframes intro{
+@keyframes intro1{
 	0%{
 		opacity: 0;
-		margin-top: 600px;
+		margin-top: -600px;
 		color: #74b9ff;
 
 
@@ -41,6 +45,21 @@
 		opacity: 1;
 		margin-top: 0;
 		color: white;
+
+	}
+}
+@keyframes intro2{
+	0%{
+		opacity: 0.5;
+		margin-top: 1000px;
+		color: #74b9ff;
+
+	}
+	100%{
+		opacity: 1;
+		margin-top: 0;
+		color: white;
+
 	}
 }
 @keyframes openC{
